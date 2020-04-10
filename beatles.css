@@ -1,25 +1,36 @@
 body{
     margin: 0;
+    width: 100%;
+    height: 100%;
     
 }
 
 
+#imgPortada{
+    width: 60%;
+    max-height: 50%;
+    margin-right: 0;
+    height: 50em;
+   
+}
  #logo{
-    float: right;
-   /*  margin: 30px 80px; */
+    position: relative;
+    left: -40px;
+    width: 110%;
+    padding-left: 0.7em;
  }
 
  .texto{
-    font-size: 22px;
-    font-family: Roboto;
-   /*  border: red solid 1px; */
-    width: 500px;
-    float: right;
-    margin: 30px 100px;
+     width: 30%;
+    font-size: 22px;    
+    font-family: Roboto;   
+   float: right;
+   margin: 2% 5%;
+   padding-bottom: 1px;
    
- }
+}
 
 .texto p{
-    padding-top: 250px;
-    line-height: 1.5;
+    line-height: 1.4;
+    text-align: justify;
 }
