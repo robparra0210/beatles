@@ -1,4 +1,4 @@
-body{
+html body{
     margin: 0;
     width: 100%;
     height: 100%;
@@ -24,13 +24,92 @@ body{
      width: 30%;
     font-size: 22px;    
     font-family: Roboto;   
-   float: right;
-   margin: 2% 5%;
+    float: right;
+     margin: 2% 5%;
    padding-bottom: 1px;
+   text-align: justify;
    
 }
 
 .texto p{
     line-height: 1.4;
-    text-align: justify;
 }
+
+
+.historia{
+    margin-top: -5em;
+    display: inline-block;
+    width: 100%;;
+    
+}
+
+
+.historia h2{
+    font-family: 'Gotu', sans-serif;
+    font-size: 6em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
+
+.historia p{
+    margin: 0 30px;
+    line-height: 1.4;
+}
+
+.tracks{
+    width: 65%;
+    max-height: 50%;
+    background-image: url("img/blackAndWhite.jpg");
+    height: 40em;
+    float: right;
+    background-size: 100%;
+    background-position-y: -157px
+}
+
+
+.tracks ul {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-family: 'Gotu', sans-serif;
+
+}
+.tracks ul{
+    float: right;
+    list-style: none;
+}
+.tracks ul li::before{
+    content: "\2022"; 
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 1em;
+    
+}
+
+
+.video { 
+        margin: 5em; 
+
+    }
+
+.videocon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    color: white;
+    background:rgb(26, 25, 24);
+    margin-bottom: 0em;
+    height: 2.5em;
+}
+
+.footer p{
+    text-align: right;
+    position: relative;
+    right:  2em;    
+    top: 0.4em;
+    font-family: roboto;
+    }
